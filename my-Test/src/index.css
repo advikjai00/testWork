@@ -21,19 +21,19 @@ button {
   /* Define the animation for the border */
   @keyframes border-pulse {
     0% {
-      border-color: transparent;
+      border-color: #000000;
     }
-    50% {
+    25% {
       border-color: #b83939;
     }
     100% {
-      border-color: transparent;
+      border-color: #ffffff;
     }
   }
   
   /* Apply the animation to the button */
   .border-animation {
-    animation: border-pulse 5s infinite; /* Apply animation to the button */
+    animation: border-pulse 3s infinite; /* Apply animation to the button */
   }
   
 
@@ -45,4 +45,9 @@ button {
     /* text-shadow: 1px 1px #FF00FF; */
     /* text-shadow: 0 0 10px #ff00ff, 0 0 9px #ff00ea; */
     -webkit-text-stroke: 5px 	#9f29e9;
+  }
+
+  #tste{
+    /* text-shadow: 1px 1px #FF00FF; */
+    -webkit-text-stroke: 50px 	#9f29e9;
   }
